@@ -1,4 +1,4 @@
-import { Plane, Building, Users, MapPin, Clock, Star } from "lucide-react";
+import { Plane, Users, MapPin, Clock, Star } from "lucide-react";
 
 const services = [
   {
@@ -7,14 +7,9 @@ const services = [
     description: "حملات حج متميزة مع إقامة مريحة وخدمات شاملة في المشاعر المقدسة والفنادق القريبة من الحرم",
   },
   {
-    icon: Building,
-    title: "خدمات العمرة",
-    description: "برامج عمرة متنوعة على مدار العام مع باقات تناسب جميع الميزانيات والاحتياجات",
-  },
-  {
     icon: Users,
     title: "الإشراف الميداني",
-    description: "فريق إشراف متخصص ومتواجد على مدار الساعة لخدمة الحجاج والمعتمرين",
+    description: "فريق إشراف متخصص ومتواجد على مدار الساعة لخدمة الحجاج",
   },
   {
     icon: MapPin,

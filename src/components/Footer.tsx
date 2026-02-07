@@ -1,4 +1,5 @@
-import { Phone } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,12 +11,10 @@ const Footer = () => {
           {/* Logo & Tagline */}
           <div className="text-center md:text-right">
             <div className="flex items-center gap-3 justify-center md:justify-start mb-4">
-              <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
-                <span className="text-primary font-bold text-xl">س</span>
-              </div>
+              <img src={logo} alt="شعار شركة السهيمي" className="w-14 h-14 rounded-lg object-cover" />
               <div>
-                <h3 className="font-bold text-lg">شركة السهيمي</h3>
-                <p className="text-xs text-primary-foreground/70">للحج والعمرة</p>
+                <h3 className="font-bold text-sm leading-tight">شركة فاخر منصور السهيمي وشريكه</h3>
+                <p className="text-xs text-primary-foreground/70">لخدمة حجاج الداخل</p>
               </div>
             </div>
             <p className="text-accent font-medium text-sm">
@@ -23,9 +22,8 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Contact Numbers */}
           <div className="text-center">
-            <h4 className="font-bold mb-4 text-accent">أرقام التواصل</h4>
+            <h4 className="font-bold mb-4 text-accent">تواصل معنا</h4>
             <div className="flex flex-col gap-2">
               <a
                 href="tel:+966541846334"
@@ -41,6 +39,13 @@ const Footer = () => {
                 <Phone className="w-4 h-4" />
                 <span dir="ltr">+966 54 274 7882</span>
               </a>
+              <a
+                href="mailto:hajj@alsuhaimihajj.com"
+                className="inline-flex items-center justify-center gap-2 hover:text-accent transition-colors"
+              >
+                <Mail className="w-4 h-4" />
+                <span>hajj@alsuhaimihajj.com</span>
+              </a>
             </div>
           </div>
 
@@ -48,6 +53,13 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h4 className="font-bold mb-4 text-accent">تابعونا</h4>
             <div className="flex items-center justify-center md:justify-start gap-4">
+              <a
+                href="mailto:hajj@alsuhaimihajj.com"
+                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-colors"
+                aria-label="البريد الإلكتروني"
+              >
+                <Mail className="w-5 h-5" />
+              </a>
               <a
                 href="https://x.com"
                 target="_blank"
@@ -77,7 +89,10 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-10 pt-6 border-t border-primary-foreground/10 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            جميع الحقوق محفوظة © شركة السهيمي للحج والعمرة {currentYear}
+            جميع الحقوق محفوظة © شركة فاخر منصور السهيمي وشريكه لخدمة حجاج الداخل {currentYear}
+          </p>
+          <p className="text-primary-foreground/50 text-xs mt-2">
+            تصريح 10190
           </p>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Mail } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const navLinks = [
   { href: "#home", label: "الرئيسية" },
@@ -40,12 +41,10 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">س</span>
-            </div>
+            <img src={logo} alt="شعار شركة السهيمي" className="w-14 h-14 rounded-lg object-cover" />
             <div className="hidden sm:block">
-              <h1 className="font-bold text-primary text-lg">شركة السهيمي</h1>
-              <p className="text-xs text-muted-foreground">للحج والعمرة</p>
+              <h1 className="font-bold text-primary text-sm leading-tight">شركة فاخر منصور السهيمي وشريكه</h1>
+              <p className="text-xs text-muted-foreground">لخدمة حجاج الداخل</p>
             </div>
           </div>
 
@@ -62,8 +61,14 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Social Icons - Desktop */}
           <div className="hidden lg:flex items-center gap-4">
+            <a
+              href="mailto:hajj@alsuhaimihajj.com"
+              className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
+              aria-label="البريد الإلكتروني"
+            >
+              <Mail className="w-4 h-4" />
+            </a>
             <a
               href="https://x.com"
               target="_blank"

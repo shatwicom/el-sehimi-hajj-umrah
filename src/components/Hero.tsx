@@ -24,8 +24,10 @@ const Hero = () => {
           </div>
 
           {/* Main Title */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 opacity-0 animate-fade-in animation-delay-200">
-            شركة السهيمي للحج والعمرة
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6 opacity-0 animate-fade-in animation-delay-200">
+            شركة فاخر منصور السهيمي وشريكه
+            <br />
+            <span className="text-accent">لخدمة حجاج الداخل</span>
           </h1>
 
           {/* Subtitle */}
