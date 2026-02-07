@@ -4,12 +4,12 @@ const values = [
   {
     icon: Award,
     title: "الخبرة الميدانية",
-    description: "سنوات من الخبرة في تنظيم رحلات الحج والعمرة",
+    description: "سنوات من الخبرة في تنظيم رحلات الحج",
   },
   {
     icon: Users,
     title: "التنظيم الاحترافي",
-    description: "فريق متخصص لضمان راحة الحجاج والمعتمرين",
+    description: "فريق متخصص لضمان راحة الحجاج",
   },
   {
     icon: Heart,
@@ -31,19 +31,19 @@ const About = () => {
           <h2 className="heading-primary mb-4">من نحن</h2>
           <div className="gold-divider mb-6" />
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            شركة السهيمي للحج والعمرة، شريككم الموثوق في رحلة العمر
+            شركة فاخر منصور السهيمي وشريكه، شريككم الموثوق في رحلة العمر
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto mb-16">
           <div className="card-elevated p-8 md:p-12 text-center">
             <p className="text-lg md:text-xl leading-relaxed text-foreground/90 mb-6">
-              نحن شركة متخصصة في تقديم خدمات الحج والعمرة بمعايير عالية من الجودة والاحترافية. 
+              نحن شركة متخصصة في تقديم خدمات الحج لحجاج الداخل بمعايير عالية من الجودة والاحترافية. 
               نعمل على توفير تجربة روحانية متكاملة لضيوف الرحمن، مع التركيز على الراحة والأمان 
               والتنظيم المتقن في جميع مراحل الرحلة.
             </p>
             <p className="text-accent text-lg font-medium border-t border-border pt-6">
-              "نلتزم بتقديم تجربة حج وعمرة قائمة على العناية والتنظيم والاهتمام بأدق التفاصيل"
+              "نلتزم بتقديم تجربة حج قائمة على العناية والتنظيم والاهتمام بأدق التفاصيل"
             </p>
           </div>
         </div>

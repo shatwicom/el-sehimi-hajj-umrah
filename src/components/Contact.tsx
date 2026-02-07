@@ -31,6 +31,14 @@ const Contact = () => {
               <Phone className="w-6 h-6" />
               <span className="font-medium" dir="ltr">+966 54 274 7882</span>
             </a>
+
+            <a
+              href="mailto:hajj@alsuhaimihajj.com"
+              className="inline-flex items-center gap-3 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20 px-8 py-4 rounded-xl transition-all duration-300 w-full sm:w-auto justify-center"
+            >
+              <Mail className="w-6 h-6" />
+              <span className="font-medium">hajj@alsuhaimihajj.com</span>
+            </a>
           </div>
 
           <div className="mt-12 pt-8 border-t border-primary-foreground/20">
