@@ -9,11 +9,11 @@ import gallery6 from "@/assets/gallery-6.jpg";
 
 const images = [
   { src: gallery1, alt: "مخيمات منى" },
-  { src: gallery2, alt: "جبل عرفة" },
-  { src: gallery3, alt: "الحرم المكي ليلاً" },
-  { src: gallery4, alt: "الطواف حول الكعبة" },
-  { src: gallery5, alt: "المسجد النبوي" },
-  { src: gallery6, alt: "خيام الحجاج المميزة" },
+  { src: gallery2, alt: "رمي الجمرات" },
+  { src: gallery3, alt: "الكعبة المشرفة" },
+  { src: gallery4, alt: "الوقوف بعرفة" },
+  { src: gallery5, alt: "مخيمات منى" },
+  { src: gallery6, alt: "استلام جائزة الإلتزام بالجودة من وزير الحج" },
 ];
 
 const Gallery = () => {
