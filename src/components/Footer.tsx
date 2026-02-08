@@ -50,9 +50,9 @@ const Footer = () => {
           </div>
 
           {/* Social Links */}
-          <div className="text-center md:text-left">
+          <div className="text-center">
             <h4 className="font-bold mb-4 text-accent">تابعونا</h4>
-            <div className="flex items-center justify-center md:justify-start gap-4">
+            <div className="flex items-center justify-center gap-4">
               <a
                 href="mailto:hajj@alsuhaimihajj.com"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-primary transition-colors"
