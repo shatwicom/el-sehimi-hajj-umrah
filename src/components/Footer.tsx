@@ -91,7 +91,7 @@ const Footer = () => {
           <p className="text-primary-foreground/60 text-sm">
             جميع الحقوق محفوظة © شركة فاخر منصور السهيمي وشريكه لخدمة حجاج الداخل {currentYear}
           </p>
-          <p className="text-primary-foreground/50 text-xs mt-2">
+          <p className="text-primary-foreground/70 text-sm font-medium mt-2">
             تصريح 10190
           </p>
         </div>
