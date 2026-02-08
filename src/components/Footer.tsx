@@ -33,11 +33,12 @@ const Footer = () => {
                 <span dir="ltr">+966 54 184 6334</span>
               </a>
               <a
-                href="tel:+966542747882"
+                href="tel:+966138953547"
                 className="inline-flex items-center justify-center gap-2 hover:text-accent transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                <span dir="ltr">+966 54 274 7882</span>
+                <span dir="ltr">+966 13 895 3547</span>
+                <span className="text-xs text-primary-foreground/60">(المكتب)</span>
               </a>
               <a
                 href="mailto:hajj@alsuhaimihajj.com"

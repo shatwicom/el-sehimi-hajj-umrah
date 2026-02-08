@@ -15,7 +15,7 @@ const Contact = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
-              href="https://wa.me/966542747882"
+              href="https://wa.me/966541846334"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 btn-gold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto justify-center"
@@ -25,11 +25,11 @@ const Contact = () => {
             </a>
 
             <a
-              href="tel:+966542747882"
+              href="tel:+966541846334"
               className="inline-flex items-center gap-3 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20 px-8 py-4 rounded-xl transition-all duration-300 w-full sm:w-auto justify-center"
             >
               <Phone className="w-6 h-6" />
-              <span className="font-medium" dir="ltr">+966 54 274 7882</span>
+              <span className="font-medium" dir="ltr">+966 54 184 6334</span>
             </a>
 
             <a

@@ -38,7 +38,7 @@ const Hero = () => {
           {/* CTA Button */}
           <div className="opacity-0 animate-fade-in" style={{ animationDelay: "600ms" }}>
             <a
-              href="https://wa.me/966542747882"
+              href="https://wa.me/966541846334"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 btn-gold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
