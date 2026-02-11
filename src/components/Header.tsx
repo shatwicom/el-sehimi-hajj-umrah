@@ -70,7 +70,7 @@ const Header = () => {
               <Mail className="w-4 h-4" />
             </a>
             <a
-              href="https://x.com"
+                href="https://x.com/alsuhaimi10190"
               target="_blank"
               rel="noopener noreferrer"
               className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -81,7 +81,7 @@ const Header = () => {
               </svg>
             </a>
             <a
-              href="https://instagram.com"
+                href="https://instagram.com/alsuhaimi10190"
               target="_blank"
               rel="noopener noreferrer"
               className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -125,7 +125,7 @@ const Header = () => {
             ))}
             <div className="flex items-center gap-4 pt-4 border-t border-border">
               <a
-                href="https://x.com"
+                href="https://x.com/alsuhaimi10190"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center"
@@ -136,7 +136,7 @@ const Header = () => {
                 </svg>
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/alsuhaimi10190"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center"
